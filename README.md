@@ -20,7 +20,7 @@ The file structure of the application is organized as follows:
 
 - `styles.css`: The CSS style file defining the appearance of the application.
 
-### Features
+### Features 🔗
 
 #### 1. Add New Note
 
