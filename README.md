@@ -10,7 +10,7 @@ Welcome to the documentation for the notes application. This application is a si
 3. [How to Use](#how-to-use)
 4. [Style and Design](#style-and-design)
 
-### File Structure
+### File Structure 📋
 
 The file structure of the application is organized as follows:
 
