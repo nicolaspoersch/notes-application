@@ -19,13 +19,12 @@ document.addEventListener("DOMContentLoaded", function () {
             if (name) {
                 const newNote = document.createElement("li");
                 newNote.className = "note-list-item";
-                newNote.dataset.name = name; // Define o nome da anotação como um atributo de dados
+                newNote.dataset.name = name;
                 newNote.innerHTML = `<button class="btn btn-secondary">${name}</button>`;
                 notesList.appendChild(newNote);
 
                 newNote.addEventListener("click", () => {
                     currentNote = newNote;
-                    // Recupera o nome da anotação do atributo de dados
                     noteName.value = newNote.dataset.name;
                     noteTitle.value = "";
                     noteContent.value = "";
@@ -43,7 +42,6 @@ document.addEventListener("DOMContentLoaded", function () {
             const title = noteTitle.value;
             const content = noteContent.value;
             if (title !== "" || content !== "") {
-                // Atualiza apenas o título da anotação, mantendo o nome inalterado
                 currentNote.innerHTML = `<button class="btn btn-secondary">${title || "Anotação sem título"}</button>`;
             }
         }
