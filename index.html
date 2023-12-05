@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Anotações</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <nav class="col-md-2 d-none d-md-block bg-light sidebar">
+                <div class="position-sticky">
+                    <!-- Adicione a imagem da logo aqui -->
+                    <img src="bloco-de-anotacoes.png" alt="Logo" class="logo">
+                    <ul id="notes-list" class="nav flex-column">
+                        <!-- Anotações serão geradas aqui -->
+                    </ul>
+                    <button id="add-note" class="btn btn-secondary btn-block mt-3">Nova Anotação</button>
+                </div>
+            </nav>
+
+            <main class="col-md-9 ml-sm-auto col-lg-10 px-md-4">
+                <div id="app">
+                    <div class="note p-4 mb-4">
+                        <input id="note-title" type="text" class="form-control mb-3 font-weight-bold" placeholder="Título da Anotação">
+                        <textarea id="note-content" class="form-control note-content" placeholder="Sua anotação vai aqui..."></textarea>
+                        <button id="save-note" class="btn btn-success mt-3">Salvar</button>
+                        <button id="delete-note" class="btn btn-danger mt-3 ml-3">Excluir</button>
+                    </div>
+                </main>
+            </div>
+        </div>
+    </div>
+
+    <div id="overlay" class="overlay" style="display: none;">
+        <div class="overlay-content">
+            <h2>Nome da Anotação</h2>
+            <input type="text" id="note-name" class="form-control" placeholder="Nome da Anotação">
+            <button id="save-name" class="btn btn-success mt-3">Salvar</button>
+        </div>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>

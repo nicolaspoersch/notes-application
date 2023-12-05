@@ -1,0 +1,138 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #f8f8f8, #e0e0e0);
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.3s;
+}
+
+.sidebar {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    padding: 20px;
+    min-height: 100vh;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.btn-secondary {
+    background-color: #000;
+    color: #fff;
+    font-weight: 600;
+    border: none;
+    transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+}
+
+.btn-secondary:hover {
+    background-color: #333;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.btn-success, .btn-danger {
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+}
+
+.note {
+    background-color: #fff;
+    border: 1px solid #e4e7eb;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.note-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+}
+
+.note-content textarea {
+    border: none;
+    background: none;
+    resize: none;
+    outline: none;
+    font-weight: 400;
+    font-size: 18px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+    min-height: 150px;
+    padding: 10px;
+    line-height: 1.5;
+    font-weight: bold;
+    transition: box-shadow 0.3s;
+}
+
+.note-content textarea::placeholder {
+    font-weight: 400;
+    font-weight: bold;
+}
+
+.note-content textarea:focus {
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.note-list-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #e4e7eb;
+    cursor: pointer;
+    transition: background-color 0.2s, box-shadow 0.3s;
+}
+
+.note-list-item:hover {
+    background-color: #f0f2f5;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+    margin: 10px auto 10px 92px;
+    transition: margin-right 0.3s;
+}
+
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 999;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.overlay-content {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.overlay h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.overlay input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.overlay button {
+    font-weight: bold;
+}
