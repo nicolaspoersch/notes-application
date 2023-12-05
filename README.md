@@ -48,6 +48,6 @@ The file structure of the application is organized as follows:
 2. Open the `index.html` file in a web browser.
 3. Use the buttons in the sidebar to add, view, edit, and delete notes.
 
-### Style and Design
+### Style and Design 🎀
 
 The application adopts a simple and user-friendly design, with the sidebar navigation containing buttons for each note and the main area for editing content. Styles are based on Bootstrap for a responsive experience.
