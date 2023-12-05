@@ -3,7 +3,7 @@
 ## Introduction 📖
 Welcome to the documentation for the notes application. This application is a simple front-end for creating and managing notes. It allows users to add, view, edit, and delete notes in an easy and intuitive way.
 
-## Contents
+## Contents 🧾
 
 1. [File Structure](#file-structure)
 2. [Features](#features)
