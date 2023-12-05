@@ -42,7 +42,7 @@ The file structure of the application is organized as follows:
 - Select a note.
 - Click the "Delete" button to remove the note.
 
-### How to Use
+### How to Use 🖊
 
 1. Clone or download the repository.
 2. Open the `index.html` file in a web browser.
